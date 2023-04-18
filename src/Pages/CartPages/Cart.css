@@ -1,0 +1,104 @@
+.cartContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: auto;
+}
+.addedProducts{
+  display: flex;
+  width: 50%;
+  margin: 10px 0px;
+  border: 1px solid black;
+  min-width: 130px;
+  position: relative;
+
+}
+.imgSection{
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+.cartImg{
+  width: 100%;
+}
+.textSection{
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(237, 237, 237);
+  width: 100%;
+  align-items: start;
+}
+.textSection h1{
+font-size: 6px;
+margin-left: 2%;
+margin-top: 2%;
+height: 25%;
+}
+
+.priceSection{
+  text-align: start;
+  background-color: white;
+  height: 75%;
+  width: 100%;
+}
+.priceSection h5{
+  font-size: 5px;
+  margin-left: 2%;
+  margin-top: 2%;
+  }
+
+
+.quantitySection{
+  font-size: 6px;
+  margin: 2% 2%;
+  display: flex;
+}
+
+
+.addBtn{
+  font-size: 8px;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2%;
+  cursor: pointer;
+  color: var(--whiteColor);
+  background-color: var(--blackColor);
+  border: none;
+  transition: .2s;
+  border-radius: 2px;
+}
+
+.rmvBtn{
+  font-size: 8px;
+  width: 10px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: var(--whiteColor);
+  background-color: var(--blackColor);
+  border : none;
+  margin-left: 1%;
+  transition: .2s;
+  border-radius: 2px;
+}
+.addBtn:hover , .rmvBtn:hover{
+  opacity: .5;
+}
+
+.checkOutBtn {
+  border: none;
+  background-color: var(--whiteColor);
+  cursor: pointer;
+  position: absolute;
+  right: 5%;
+  bottom: 10%;
+  transition: .2s;
+}
+.checkOutBtn:hover{
+  opacity: .5;
+}

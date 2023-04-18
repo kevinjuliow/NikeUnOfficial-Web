@@ -1,0 +1,125 @@
+.HomeHeader{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  gap: 10%;
+  background-color: var(--grayColor);
+  height: 30px;
+}
+.HomeHeader b{
+  font-size: 8px;
+}
+.HomeHeader p{
+  font-size: 5px;
+}
+
+
+
+/*=============================DISPLAY HOME=================================*/
+.displayHome{
+  width: 100%;
+  padding: 0 10%;
+  text-align: center;
+}
+.topDisplay{
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 3%;
+}
+.displayMenu{
+  display: flex;
+  gap: 7%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.displayMenu a {
+  font-size: 5px;
+  height: 10px;
+}
+.appearLogoAnimation{
+  gap: 10%;
+  background-color: aqua;
+}
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes appearLogoAnimation {
+  0%{
+    margin-bottom: 10px;
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+    margin-bottom: 0px;
+  }
+}
+
+
+
+
+
+/*=========================MAIN DISPLAY========================*/
+.mainDisplay{
+  margin-top: 4%;
+  display: flex;
+  justify-content: center;
+  gap: 2%;
+  position: relative;
+  height: 50%;
+}
+.mainDisplay img{
+  width: 50%;
+}
+
+.displayShop{
+  width: 40%;
+}
+
+
+/*=============================================================================*/
+.shopBtn{
+  margin-top: 2%;
+  background-color: var(--blackColor);
+  border : none;
+  width: 6%;
+  height: 4%;
+  font-size: 6px;
+  border-radius: 100px;
+  cursor: pointer;
+  transform: .4s;
+}
+
+.shopBtn:hover{
+  opacity: .7;
+}
+
+
+
+
+/*============================DISPLAY SHOES==============================*/
+.displayShoes{
+  width: 100%;
+  background-color: var(--grayColor);
+  height: 70%;
+  margin-top: 4%;
+}
+.displayShoes img{
+  width: 80%;
+  height: 100%;
+}

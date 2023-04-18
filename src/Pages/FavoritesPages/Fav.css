@@ -1,0 +1,25 @@
+.containerFav{ 
+  display: grid;
+  grid-row-end: 3;
+  grid-template-columns: repeat(auto-fit, minmax(200px, .5fr));
+  gap: 3%;
+  margin-top: 3%;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid var(--blackColor);
+}
+
+.pictSection { 
+  width: 40%;
+  border-bottom: 1px solid black;
+  margin-bottom: 2%;
+}
+.pict{
+  width: 100%;
+}
+.textSections{
+  font-size: 10px;
+}

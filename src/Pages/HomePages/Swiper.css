@@ -1,0 +1,26 @@
+.swiper-button-next,
+.swiper-button-prev {
+  width: 20px; /* Change this to the desired width */
+  height: 20px; /* Change this to the desired height */
+  font-size: 0; /* This will remove any text inside the buttons */
+  color: var(--blackColor);
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 10px !important; /* Change this to the desired icon size */
+  color: var(--blackColor);
+}
+
+.swiper-pagination-bullet {
+  width: 8px; /* Change this to the desired bullet width */
+  height: 8px; /* Change this to the desired bullet height */
+  background-color: #c9c5c5; /* Change this to the desired bullet color */
+  opacity: 0.5; /* Change this to the desired bullet opacity */
+  margin: 0 5px; /* Change this to the desired margin between bullets */
+}
+
+.swiper-pagination-bullet-active {
+  opacity: .4s; /* Change this to the desired active bullet opacity */
+  background-color: var(--blackColor);
+}
