@@ -59,7 +59,7 @@
   font-size: 7px;
 }
 
-@media screen and (max-width : 400px) {
+@media screen and (max-width : 768px) {
   .displayHomeText{
     font-size: 10px;
   }
@@ -130,7 +130,7 @@
   opacity: .7;
 }
 
-@media screen and (max-width : 400px) {
+@media screen and (max-width : 768px) {
   .shopBtn{
     width: 50%;
   }
