@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NikeUnOfficial-Web/static/css/main.4379a4c0.css",
-    "main.js": "/NikeUnOfficial-Web/static/js/main.489e8efa.js",
+    "main.css": "/NikeUnOfficial-Web/static/css/main.ed358aa3.css",
+    "main.js": "/NikeUnOfficial-Web/static/js/main.727166eb.js",
     "static/media/DisplayHome1.jpg": "/NikeUnOfficial-Web/static/media/DisplayHome1.d79b077a79bc4a97d0c3.jpg",
     "static/media/ProductDisplay3.webp": "/NikeUnOfficial-Web/static/media/ProductDisplay3.0ec0920519f1e65dc581.webp",
     "static/media/Product5.webp": "/NikeUnOfficial-Web/static/media/Product5.bf3be2057a7ac23180a6.webp",
@@ -15,11 +15,11 @@
     "static/media/Product4.webp": "/NikeUnOfficial-Web/static/media/Product4.0a150e68acb03045016a.webp",
     "static/media/Product2.webp": "/NikeUnOfficial-Web/static/media/Product2.cfb053d575cb2f6dc833.webp",
     "index.html": "/NikeUnOfficial-Web/index.html",
-    "main.4379a4c0.css.map": "/NikeUnOfficial-Web/static/css/main.4379a4c0.css.map",
-    "main.489e8efa.js.map": "/NikeUnOfficial-Web/static/js/main.489e8efa.js.map"
+    "main.ed358aa3.css.map": "/NikeUnOfficial-Web/static/css/main.ed358aa3.css.map",
+    "main.727166eb.js.map": "/NikeUnOfficial-Web/static/js/main.727166eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.4379a4c0.css",
-    "static/js/main.489e8efa.js"
+    "static/css/main.ed358aa3.css",
+    "static/js/main.727166eb.js"
   ]
 }
