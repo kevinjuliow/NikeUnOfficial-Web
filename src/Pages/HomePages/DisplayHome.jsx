@@ -25,8 +25,8 @@ function DisplayHome() {
         </div>
       </div>
 
-      <h1 style={{textAlign:'center',margin:'1% 0', marginTop:'10%'}} >AIR JORDAN XXXI | Architectural Digest</h1>
-      <p style={{textAlign:'center', fontSize:'7px'}}>The Air Jordan XXXI | Architectural Digest Colorway Tricks out the Ultimate performance Shoe to make a bold statement.</p>
+      <h1 className='displayHomeText' >AIR JORDAN XXXI | Architectural Digest</h1>
+      <p  className='displayHomeText2' >The Air Jordan XXXI | Architectural Digest Colorway Tricks out the Ultimate performance Shoe to make a bold statement.</p>
       <button className='shopBtn'><a href="#shop" style={{color:'white'}}>Shop</a></button>
       <DisplayShoes/>
       
